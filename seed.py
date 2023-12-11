@@ -13,7 +13,7 @@ session = Session()
 # Create sample data
 restaurant1 = Restaurant(name='Kibandaski', price=3)
 restaurant2 = Restaurant(name='prestige', price=2)
-customer1 = Customer(first_name='Mark', last_name='Peter')
+customer1 = Customer(first_name='Steve', last_name='Peter')
 customer2 = Customer(first_name='Aaron', last_name='Kiptoo')
 
 review1 = Review(star_rating=4, restaurant=restaurant1, customer=customer1)
